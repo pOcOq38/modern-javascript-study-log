@@ -16,5 +16,16 @@ let string = 'hello';
 string = "'hello'";
 
 string = 'hello \n Elle \t\t hehe\\';
-console.log(strin, '11');
+console.log(string, '11');
+
+//Template Leteral
+let id = 'Elle';
+let greetings = "'hello!, " + id + " 😛\Have a good day!'";
+console.log(greetings);
+
+greetings = `'Hello, ${id} 
+Hope you have a nice day! 👐'`;
+console.log(greetings);
+
+
 
