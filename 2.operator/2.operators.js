@@ -79,6 +79,15 @@ let obj3 = obj2;
 console.log(obj3 == obj2); //true
 console.log(obj3 === obj2); //true
 
+//Logical operator
+//&&: and ||: or !: not !!: boolean
+let num = 21;
+ if(num>= 0 && num < 9 ){
+    console.log('A');
+ }
+ if(num>= 0 || num > 9 ){
+    console.log('A');
+ }
 
 
 
