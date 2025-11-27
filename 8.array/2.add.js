@@ -16,8 +16,3 @@ console.log(fruits);
 
 delete fruits[1];
 console.log(fruits);
-
-//
-let newArr = fruits.slice(0, 2);
-console.log(newArr);
-console.log(fruits);
